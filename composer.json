@@ -60,7 +60,7 @@
       "roots/wordpress-core-installer": true
     },
     "github-oauth": {
-      "github.com": "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"
+
     }
   },
   "minimum-stability": "dev",

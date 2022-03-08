@@ -42,16 +42,6 @@ tooling:
     cmd: npm run watch
     dir: /app/web/app/themes/theme
 
-  install:
-    description: Installs specified plugin
-    service: appserver
-    cmd: composer require wpackagist-plugin/:plugin
-    dir: /app
-    options:
-      plugin:
-        default:
-        describe: installs required plugin 
-
 excludes:
   - vendor
   - node_modules
