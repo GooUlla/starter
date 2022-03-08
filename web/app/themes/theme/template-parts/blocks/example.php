@@ -11,7 +11,7 @@ if( !empty($block['align']) ) {
 
 ?>
 
-<div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
+<div class="<?php echo esc_attr($className); ?>">
     <blockquote class="testimonial-blockquote">
         <span class="testimonial-text"><?php echo $text; ?></span>
         <span class="testimonial-author"><?php echo $author; ?></span>
@@ -21,7 +21,7 @@ if( !empty($block['align']) ) {
         <?php echo wp_get_attachment_image( $image, 'full' ); ?>
     </div>
     <style type="text/css">
-        #<?php echo $id; ?> {
+        .<?php echo $className; ?> {
             background: <?php echo $background_color; ?>;
             color: <?php echo $text_color; ?>;
         }
