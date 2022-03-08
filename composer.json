@@ -58,9 +58,6 @@
     "allow-plugins": {
       "composer/installers": true,
       "roots/wordpress-core-installer": true
-    },
-    "github-oauth": {
-
     }
   },
   "minimum-stability": "dev",
