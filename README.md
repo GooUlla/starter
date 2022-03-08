@@ -33,7 +33,9 @@
 - Reemplazar el texo `ReplaceThemeName` (matchcase) por el nombre del tema.
 - Reemplazar el texo `websiteurl` (matchcase) por la url de desarrollo (solo el nombre).
 
-2. Ejecutar:
+2. Ir al archivo `.env` y reemplazar las salts por las que entrega el link.
+
+3. Ejecutar:
    ```sh
    $ lando build && lando build-theme
    ```
