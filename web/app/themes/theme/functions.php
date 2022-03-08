@@ -188,11 +188,11 @@ function upbrands_blocks() {
 
         // register a testimonial block.
         acf_register_block_type(array(
-            'name'              => 'testimonial',
-            'title'             => __('Testimonial'),
-            'description'       => __('A custom testimonial block.'),
-            'render_template'   => 'template-parts/blocks/testimonial/testimonial.php',
-            'category'          => 'upbrands',
+            'name'              => 'example',
+            'title'             => __('Example'),
+            'description'       => __('An example block.'),
+            'render_template'   => 'template-parts/blocks/example.php',
+            'category'          => 'websiteurl',
             'icon'              => 'admin-comments',
             'keywords'          => array( 'testimonial', 'quote' ),
         ));
